@@ -3,6 +3,7 @@ package com.yukil.refactoring.videorental;
 public class Rental {
     private Movie movie;
     private int daysRented;
+    private String ddd;
 
     public Rental(Movie movie, int daysRented) {
         this.movie = movie;
@@ -12,6 +13,8 @@ public class Rental {
     public Movie getMovie() {
         return movie;
     }
+
+
 
     public int getDaysRented() {
         return daysRented;
